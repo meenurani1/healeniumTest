@@ -31,7 +31,7 @@ public class BaseClass {
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		driver.get("file:///Users/meenu.rani/Downloads/simple-login-page-in-html/index.html");
+		driver.get("file:////Users/meenu.rani/eclipse-workspace/healeniumt/simple-login-page-in-html/index.html");
 	}
 	
 	@AfterTest
